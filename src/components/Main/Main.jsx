@@ -1,4 +1,5 @@
 import'./Main.css'
+import ServicoCard from '../ServicoCard/ServicoCard'
 
 function Main (){
     return(
@@ -12,10 +13,18 @@ function Main (){
             <a href="#portofolio" className='btn-secondary'>Ver portofolio</a>
              </div>
          </section> 
-         <section className='servicos'>
+                  <section className='servico'>
+                <h2>Nossos serviços</h2>
 
+                <div className='servicos-grid'>
+                   <ServicoCard icone="🙉" titulo="Design de interface" descricao="Telas claras, pensadas para o usuário"/>
+                   <ServicoCard icone="🙈" titulo="Design de interface" descricao="Telas claras, pensadas para o usuário"/>
+                   <ServicoCard icone="🙊" titulo="Design de interface" descricao="Telas claras, pensadas para o usuário"/>
 
-        </section>   
+                    
+                </div>
+            </section>
+
         </main>
     )
 }

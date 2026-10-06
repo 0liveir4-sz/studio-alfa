@@ -59,3 +59,18 @@ background-color: var(--cor-escuro);
 .btn-secondary:hover{
     border-color: var(--cor-texto);
 }
+.servico{
+    padding: 60px;
+}
+
+.servico h2{
+    font-size: 22px;
+    color: var(--cor-titulo);
+    margin-bottom: 32px;
+}
+
+.servico-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
